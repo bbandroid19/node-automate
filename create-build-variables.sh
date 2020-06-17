@@ -1,0 +1,1 @@
+az pipelines variable-group create --name build.variables --authorize true --description "Build variables" --org ${organization}  --project ${projectName}  --variables dockerRegistryServiceConnection=${dockerServiceConnection} imageRepository=${containerRepository}

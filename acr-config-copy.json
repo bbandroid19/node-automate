@@ -1,0 +1,32 @@
+{
+    "authorization": {
+        "scheme": "ServicePrincipal",
+        "parameters": {
+            "loginServer": "njclabscontainerregistry1.azurecr.io",
+            "role": "8311e382-0749-4cb8-b61a-304f252e45ec",
+            "scope": "/subscriptions/1e33e2e6-ba81-4e7f-ad57-d2bc56bdff88/resourceGroups/njc-resource-group1/providers/Microsoft.ContainerRegistry/registries/njclabscontainerregistry1",
+            "servicePrincipalId": "<placeholder>",
+            "tenantId": "9f0b2463-0d63-4ac2-b62e-d2415ce0780b"
+        }
+    },
+    "data": {
+        "appObjectId": "",
+        "azureSpnPermissions": "",
+        "azureSpnRoleAssignmentId": "",
+        "registryId": "/subscriptions/1e33e2e6-ba81-4e7f-ad57-d2bc56bdff88/resourceGroups/njc-resource-group1/providers/Microsoft.ContainerRegistry/registries/njclabscontainerregistry1",
+        "registrytype": "ACR",
+        "spnObjectId": "",
+        "subscriptionId": "1e33e2e6-ba81-4e7f-ad57-d2bc56bdff88",
+        "subscriptionName": "Free Trial"
+    },
+    "description": "",
+    "groupScopeId": null,
+    "name": "newtry2",
+    "operationStatus": null,
+    "readersGroup": null,
+    "serviceEndpointProjectReferences": null,
+    "type": "dockerregistry",
+    "url": "https://njclabscontainerregistry1.azurecr.io",
+    "isShared": false,
+    "owner": "library"
+}

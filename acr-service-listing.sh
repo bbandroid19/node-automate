@@ -1,0 +1,1 @@
+az devops service-endpoint list --project ${projectName} --subscription "${subscriptionName}"
