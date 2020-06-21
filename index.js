@@ -1,9 +1,9 @@
 const { exec } = require("child_process");
 var env = Object.create(process.env);
-env.username = "meera46@gmail.com";
-env.password = "Achaamma-3";
-env.organization = "https://dev.azure.com/meera46";
-env.projectName = "NewProjectDemo";
+env.username = "manuthomas314@gmail.com";
+ env.password = "Harrier1406";
+env.organization = "https://dev.azure.com/manuthomas314";
+env.projectName = "new";
 env.projectDescription = "Description";
 env.pipeline_folder = "build-pipleine";
 env.pipeline_name = "Build pipleine";
@@ -13,8 +13,8 @@ env.github_repo_url = 'https://github.com/bbandroid19/azure-automate';
 env.github_pat = '939b8c50f738e06571659a5b1f8d0aaf172d7627';
 env.location = "eastus";
 env.resource_group_name = "njc-resource-group"
-env.azure_container_registry_name = "njclabscontainerregistry1";
-env.dockerServiceConnection = "njcDockerServiceConnection";
+env.azure_container_registry_name = "njclabscontainerregistry1234221";
+env.dockerServiceConnection = "njcDockerServiceConnection12423212";
 env.containerRepository = "njc-container";
 env.ROLE_ID = "8311e382-0749-4cb8-b61a-304f252e45ec";
 
@@ -38,6 +38,7 @@ var az_login = exec("sh az-login.sh", { env: env }, (error, stdout, stderr) => {
                 env.acr_name = gacridObj.name;
                 exec("sh az-devops-create.sh", { env: env }, (devopsErr, devopsOut, dvpsErr) => {
                     console.log(devopsOut);
+                    console.log(devopsErr);
                     exec("sh acr-service-connection.sh", { env: env }, (std_acrsc_err, std_acrsc_out, std_acrsc_errObj) => {
                         console.log(std_acrsc_err);
                         console.log(std_acrsc_out);

@@ -1,1 +1,1 @@
-az devops project create --name ${projectName} -d ${projectDescription} -s git --visibility public
+az devops project create --name ${projectName} -d ${projectDescription} -s git --visibility public --organization ${organization}
